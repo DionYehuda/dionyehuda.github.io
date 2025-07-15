@@ -459,8 +459,8 @@ body.light-theme{
 
 .about__info{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: .5rem;
+  grid-template-columns: repeat(2,1fr);
+  gap: 7rem;
   margin-bottom: 2rem;
 
 }
@@ -469,6 +469,7 @@ body.light-theme{
   background-color: var(--container-color);
   border-radius: .75rem;
   padding: .75rem .5rem;
+  width: 15rem;
 }
 
 .about__icon{
@@ -485,7 +486,6 @@ body.light-theme{
 
 .about__subtitle{
   font-size:var(--tiny-font-size);
-
 }
 
 .about__description{
@@ -731,6 +731,25 @@ body.light-theme{
   font-size: 1rem;
   transition: .4s;
 
+}
+
+.work__tag-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: flex-start;
+  column-gap: .5rem;
+  row-gap: .5rem;
+  padding-bottom: 1rem;  
+  padding-top: .5rem;  
+}
+
+.work__tag{
+  text-align: center;
+  border: 2px solid var(--first-color);
+  border-radius: 100rem;
+  padding: .1rem .5rem;
+  font-size: 0.75rem;
+  font-style: nromal;
 }
 
 /* Active item work*/
