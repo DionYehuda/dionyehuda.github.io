@@ -126,16 +126,17 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+    console.log(document.body.classList)
 })
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
-    origin: 'top',
+    // origin: 'left',
     distance: '60px',
     duration: 2500,
     delay: 400,
-    //reset :true
+    reset :true
 })
 
 // sr.reveal(`.home__data`)
